@@ -2,7 +2,7 @@ package tree_sitter_vue
 
 // #cgo CFLAGS: -std=c11 -fPIC -I../../src
 // #include "../../src/parser.c"
-// #include "../../src/scanner.c"
+// #include "../../src/scanner.cc"
 import "C"
 
 import "unsafe"
